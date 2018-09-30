@@ -1,0 +1,131 @@
+html{
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.main-box{
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+/*	background-color: #006400; */
+	background-color: #000000; 
+}
+
+
+table.main-frame{
+	position: absolute;
+	width: 1290px;
+	height: 768px;
+	top: 0px;
+	left: 35px;
+	margin: 0;
+	padding: 0;
+	border: #FFFFFF;
+/*	background-color: #006400; */
+	background-color: #000000; 
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+table.main-frame th{
+	color: #FFFFFF;
+	font-size: 40px;
+	line-height: 50px;
+	white-space: nowrap;
+	border-style: solid;
+}
+
+table.main-frame td{
+	color: #FFFFFF;
+	line-height: 50px;
+	white-space: nowrap;
+	border-style: solid;
+	work-break: break-all;
+}
+
+
+.cNumber{
+	font-size: 50px;
+}
+
+
+.cBrewery{
+	font-size: 40px;
+}
+
+
+.cName{
+	font-size: 40px;
+}
+
+
+.cLocal{
+	font-size: 40px;
+}
+
+
+.cStyle{
+	font-size: 40px;
+}
+
+
+.cABV{
+	font-size: 40px;
+}
+
+
+
+
+
+.No1{
+	color: #FFFFFF;
+}
+
+.No2{
+	color: #FFFFFF;
+}
+
+.No3{
+	color: #FFFFFF;
+}
+
+.No4{
+	color: #FFFFFF;
+}
+
+.No5{
+	color: #FFFFFF;
+}
+
+.No6{
+	color: #FFFFFF;
+}
+
+.No7{
+	color: #FFFFFF;
+}
+/*
+#TelopArea{
+	position:absolute;
+	top: 668px;
+	left: 0px;
+	width: 1366px;
+	height: 100px;
+	color: #FFFFFF;
+	font-size: 80px;
+}
+*/

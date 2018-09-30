@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+<!--	<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<link rel="stylesheet" type="text/css" href="../css/mugiya_input_mobile.css">
+	
+	<script src="../js/smooth-scroll.js"></script>
+	
+</head>
+
+	<body>
+		<div class="main-box">
+
+			<div id="input-title">	
+				麥ヤ
+			</div>
+
+			<div id="input-form">
+
+				<form action="./mugiya_updateQuery.php" method="POST">
+
+					<div id="number-input">
+						<p>番号</p>
+						<select name="no" id="noInput">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+						</select>
+							
+						<p id="red-display">※入力必須項目です！</p>
+
+					</div>
+					
+					<div id="brewery-input">
+						<p class="item-title">ブルワリー（一行目）</p>
+						<p id="red-display">※入力必須項目です！</p>
+						<input type="text" name="brewery1" id="breweryInput1" maxlength="10">
+                                       		 
+						<p class="item-title">ブルワリー（二行目）</p>
+						<input type="text" name="brewery2" id="breweryInput2" maxlength="10">
+					</div>
+					
+					<div id="beername-input">
+						<p class="item-title">ビールの名前（一行目）</p>
+						<p id="red-display">※入力必須項目です！</p>
+						<input type="text" name="beername1" id="beernameInput1" maxlength="10">
+                                       		 
+						<p class="item-title">ビールの名前（二行目）</p>
+						<input type="text" name="beername2" id="beernameInput2" maxlength="10">
+					</div>
+					
+					<div id="locality-input">
+						<p class="item-title">生産地</p> 
+						<p id="red-display">※入力必須項目です！</p>
+						<input type="text" name="locality" id="localityInput" maxlength="10">
+					</div>
+					
+					<div id="style-input">
+						<p class="item-title">スタイル（一行目）</p>
+						<p id="red-display">※入力必須項目です！</p>
+						<input type="text" name="style1" id="styleInput1" maxlength="10">
+						 
+						<p class="item-title">スタイル（二行目）</p>
+						<input type="text" name="style2" id="styleInput2" maxlength="10">
+					</div>
+					
+					<div id="abv-input">
+						<p class="item-title">度数 </p>
+						<p id="red-display">※入力必須項目です！</p>
+						<input type="text" name="abv" id="abvInput" maxlength="5">
+					</div>
+					
+					<div id="commit-button">
+						<input type="submit">
+					</div>
+				</form> 		
+			</div>	
+		</div>
+	</body>
+</html>
